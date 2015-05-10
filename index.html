@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Gitflow & Atlassian Stash Presentation</title>
+		<title>Gitflow/Hgflow & Atlassian Stash Presentation</title>
 
-		<meta name="description" content="Gitflow & Atlassian Stash Presentation">
+		<meta name="description" content="Gitflow/Hgflow & Atlassian Stash Presentation">
 		<meta name="author" content="Thomas Tardy">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -40,17 +40,17 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Gitflow</h1>
+					<h1>Gitflow / Hgflow</h1>
 					<h3>&</h3>
                     <h1>Atlassian Stash</h1>
 					<p>
-						<small>Created by <a href="mailto:tardy@mptechnology.ch">Thomas tardy</a></small>
+						<small>Created by <a href="mailto:tardy@mptechnology.ch">Thomas Tardy</a></small>
 					</p>
 				</section>
 
 				<section>
 					<section>
-						<h2>Gitflow</h2>
+						<h2>Gitflow / Hgflow</h2>
 						<p>
 							<img height="400" data-src="http://nvie.com/img/git-model@2x.png">
 						</p>
@@ -65,7 +65,9 @@
 						<h2>Feature branches</h2>
 						<p>
 							<img height="400" data-src="http://nvie.com/img/fb@2x.png">
-							<pre><code data-trim contenteditable>git merge --no-ff myfeature</code></pre>
+						</p>
+						<p>
+							used to build and review features before <affecting></affecting> the HEAD
 						</p>
 					</section>
 					<section>
@@ -198,6 +200,7 @@ docker start stash
 				progress: true,
 				history: true,
 				center: true,
+				help: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
